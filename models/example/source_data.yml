@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: SOURCE_01
+    database: INGESTION_PIPELINE_DATABASE
+    schema: INGESTION_SOURCE_DATA
+    tables:
+      - name: INGESTION_SOURCE_RAW_DATA

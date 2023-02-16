@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: SOURCE_02
+    database: INGESTION_PIPELINE_DATABASE
+    schema: INGESTION_SOURCE_TRANSFORMATION_META
+    tables:
+      - name: TRANSFORMATION_META
